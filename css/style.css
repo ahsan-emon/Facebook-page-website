@@ -1,0 +1,228 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica,Arial,sans-serif;
+}
+.header-area{
+	background: #3D5B99;
+	padding: 15px 0;
+}
+.middle-area{
+	width: 80%;
+	margin: auto;
+}
+.logo-area a{
+	margin-top: 10px;
+	display: block;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+	
+}
+.login-area{
+	width: 70%;
+	float: left;
+}
+.header-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.login-first{
+	float: left;
+}
+.login-second{
+	float: left;
+}
+.login-submit{
+	float: left;
+}
+.fab-login:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.login-area form{
+	float: right;
+}
+.login-area input{
+	display: block;
+	margin-right: 10px;
+	font-size: 14px;
+	border: 1px solid #1d2a5b;
+}
+.login-area label{
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+	margin-bottom: 5px;
+	display: block;
+}
+.login-second a{
+	color: #9cb4d8;
+	margin-top: 5px;
+	display: block;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.login-submit input{
+	background: #4267b2;
+	border: 1px solid #4267b2;
+	color: #fff;
+	margin-top: 20px;
+	cursor: pointer;
+	transparent: .5s;
+}
+.login-submit input:hover{
+	background: #365899;
+	border: 1px solid #365899;
+}
+
+/* signup area style start form here */
+
+.signup-left{
+	width: 70%;
+	float: left;
+}
+.signup-right{
+	width: 30%;
+	float: left;
+}
+.signup-area{
+	 background: linear-gradient(#fff, #D4D9E8);
+}
+.signup-area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.signup-left p{
+	color:#0E385F;
+	font-size: 20px;
+	font-weight: bold;
+	width: 80%;
+}
+.signup-right h2{
+	color: #333333;
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+.signup-right > p{
+	color: #333333;
+	font-size: 20px;
+	margin: 10px 0;
+}
+.signup-right input[type=text], .signup-right input[type=password]{
+	width: 100%;
+	font-size: 16px;
+	padding: 7px;
+	margin: 10px 0;
+	border-radius: 3px;
+	border: 1px solid #bdc7d8;
+	box-sizing: border-box;
+}
+.signup-right .username input:First-child{
+/*avabew akta class ar input gula select korte pari */
+	width: 49%;
+	float: left;
+}
+.signup-right .username input:nth-child(2){
+/*avabew akta class ar input gula select korte pari */
+	width: 49%;
+	float: right;
+}
+.birth-date h3{
+	color: #333;
+	font-size: 18px;
+	margin: 5px 0;
+	font-weight: normal;
+}
+.bbb-option select{
+	padding: 3px;
+	font-size: 15px;
+	border: 1px solid #bdc7d8;
+}
+.bday-link a{
+	color: #365899;
+	font-size: 12px;
+}
+.bday-link{
+	float: left;
+	width: 160px;
+}
+.bbb-option{
+	float: left;
+	margin-right: 8px;
+}
+.birth-date:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.bottom-area label{
+	color: #333;
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 10px;
+	display: inline-block;
+}
+#policy{
+	font-size: 11px;
+	color: #777;
+	width: 75%;
+}
+#policy a{
+	color: #365899;
+}
+.signup-right input[type=submit]{
+	background: linear-gradient(#67ae55, #578843);
+	padding: 10px 40px;
+	font-size: 18px;
+	color: #fff;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115; 	
+	border-radius: 5px;
+	cursor: pointer;
+}
+.signup-right input[type=submit]:hover{
+	background: linear-gradient(#578843, #67ae55);
+}
+.signup-right h4{
+	color: #666;
+	font-size: 14px;
+}
+.signup-right h4 a{
+	color: #365899;
+}
+/* footer area start from here */
+.lang p{
+	float: left;
+	font-size: 12px;
+}
+.lang a{
+	margin: 0 7px; 
+}
+.lang{
+	margin-left: 500px;
+}
+.lang hr{
+	width: 1100px;
+	margin: 10px 0;
+}
+.options{
+	margin-left: 500px;
+	width: 1000px;
+}
+.options a{
+	margin: 3px 10px 3px 0;
+	font-size: 10px;
+	float: left;
+}
+
+

@@ -1,0 +1,386 @@
+@media all and (max-width: 1000px){
+	.logo-area {
+		width: 100%;
+		flaot: none;
+		margin-bottom: 27px;
+	}
+	.login-area{
+		width: 100%;
+		float: none;
+		margin-left: 5px;
+	}
+	.login-area form{
+		float: none;
+	}
+	.login-first{
+		float: none;
+	}
+	.login-second{
+		float: none;
+	}
+	.login-submit{
+		float: none;
+		width: 30%;
+	}
+	.login-area label{
+		margin: 5px 0 5px 0;
+	}
+	.login-area input{
+		width: 50%;
+		padding: 3px;
+		font-size: 8px;
+	}
+}
+@media all and (max-width: 500px){
+	.login-submit{
+		width: 40%;
+	}
+	.login-area input{
+		width: 70%;
+	}
+}
+
+/* Signup area start from here */
+@media all and (max-width: 1364px){
+	.signup-left p{
+		width: 75%;
+	}.signup-left img{
+		width: 75%;
+	}
+	.signup-right{
+		width: 30%;
+	}
+	.lang{
+		margin-left: 400px;
+	}
+	.options{
+		margin-left: 400px;
+		width: 1000px;
+	}
+}
+@media all and (max-width: 1300px){
+	.signup-right h2{
+		font-size: 25px;
+		margin-bottom: 3px;
+	}
+	.signup-right > p{
+		font-size: 14px;
+		margin: 7px 0;
+	}
+	.signup-right input[type=text], .signup-right input[type=password]{
+		font-size: 13px;
+		padding: 6px;
+		margin: 8px 0;
+		border-radius: 3px;
+	}
+	.birth-date h3{
+		font-size: 14px;
+		margin: 4px 0;
+		}
+	.bbb-option select{
+		padding: 3px;
+		font-size: 12px;
+	}
+	.bday-link a{
+		font-size: 8px;
+	}
+	.bday-link{
+		width: 100px;
+	}
+	.bbb-option{
+		margin-right: 6px;
+	}
+	.bottom-area label{
+		font-size: 13px;
+		margin-top: 8px;
+	}
+	#policy{
+		font-size: 8px;
+		width: 80%;
+	}
+	.signup-right input[type=submit]{
+		padding: 8px 30px;
+		font-size: 15px;
+	}
+	.signup-right h4{
+		font-size: 12px;
+	}
+	.lang{
+		margin-left: 350px;
+	}
+	.options{
+		margin-left: 350px;
+		width: 1000px;
+	}
+}
+@media all and (max-width: 1200px){
+	.bday-link a{
+		font-size: 7px;
+	}
+	.bday-link{
+		width: 80px;
+	}
+	.lang{
+		margin-left: 300px;
+	}
+	.options{
+		margin-left: 300px;
+		width: 900px;
+	}
+}
+@media all and (max-width: 1120px){
+	.bday-link a{
+		font-size: 6px;
+	}
+	.bday-link{
+		width: 75px;
+	}
+	.lang{
+		margin-left: 250px;
+	}
+	.options{
+		margin-left: 250px;
+		width: 850px;
+	}
+}
+@media all and (max-width: 1094px){
+	.bday-link a{
+		font-size: 5px;
+	}
+	.bday-link{
+		width: 65px;
+	}
+	.lang{
+		margin-left: 200px;
+	}
+	.options{
+		margin-left: 200px;
+		width: 800px;
+	}
+}
+@media all and (max-width: 1000px){
+	.signup-left p{
+		width: 100%;
+	}.signup-left img{
+		width: 100%;
+	}
+	.signup-right{
+		width: 60%;
+		display: block;
+	}
+	.signup-right h2{
+		font-size: 20px;
+		margin-bottom: 2px;
+	}
+	.signup-right > p{
+		font-size: 10px;
+		margin: 5px 0;
+	}
+	.signup-right input[type=text], .signup-right input[type=password]{
+		font-size: 10px;
+		padding: 5px;
+		margin: 4px 0;
+	}
+	.birth-date h3{
+		font-size: 12px;
+		margin: 2px 0;
+		}
+	.bbb-option select{
+		padding: 4px;
+		font-size: 10px;
+	}
+	.bday-link a{
+		font-size: 8px;
+	}
+	.bday-link{
+		width: 140px;
+		margin: 0;
+		padding: 0;
+	}
+	.bbb-option{
+		margin-right: 7px;
+	}
+	.bottom-area label{
+		font-size: 12px;
+		margin-top: 6px;
+	}
+	#policy{
+		font-size: 8px;
+		width: 75%;
+	}
+	.signup-right input[type=submit]{
+		padding: 6px 25px;
+		font-size: 12px;
+	}
+	.signup-right h4{
+		font-size: 10px;
+	}
+	.lang{
+		margin-left: 150px;
+	}
+	.options{
+		margin-left: 150px;
+		width: 750px;
+	}
+	.lang p{
+		font-size: 12px;
+	}
+	.options a{
+		font-size: 10px;
+	}
+}
+@media all and (max-width: 700px){
+	.signup-left p{
+		font-size: 15px;
+	}.signup-left img{
+		width: 90%;
+	}
+	.bbb-option select{
+		padding: 3.5px;
+		font-size: 9px;
+	}
+	.bday-link a{
+		font-size: 7px;
+	}
+	.bday-link{
+		width: 120px;
+	}
+	.bottom-area label{
+		font-size: 11px;
+	}
+	#policy{
+		font-size: 7px;
+		width: 70%;
+	}
+	.signup-right input[type=submit]{
+		padding: 5px 22px;
+		font-size: 12px;
+	}
+	.signup-right h4{
+		font-size: 9px;
+	}
+	.lang{
+		margin-left: 100px;
+	}
+	.options{
+		margin-left: 100px;
+		width: 700px;
+	}
+	.lang p{
+		font-size: 10px;
+	}
+	.options a{
+		font-size: 9px;
+	}
+}
+@media all and (max-width: 500px){
+	.signup-left p{
+		font-size: 12px;
+	}.signup-left img{
+		width: 80%;
+	}
+	.bbb-option select{
+		padding: 2px;
+		font-size: 8.5px;
+	}
+	.bday-link a{
+		font-size: 5px;
+	}
+	.bday-link{
+		width: 70px;
+	}
+	.bottom-area label{
+		font-size: 11px;
+	}
+	#policy{
+		font-size: 5.5px;
+		width: 75%;
+	}
+	.signup-right input[type=submit]{
+		padding: 5px 18px;
+		font-size: 10px;
+	}
+	.signup-right h4{
+		font-size: 7px;
+	}
+	.lang{
+		margin-left: 80px;
+	}
+	.options{
+		margin-left: 80px;
+		width: 650px;
+	}
+	.lang p{
+		font-size: 9px;
+	}
+	.options a{
+		font-size: 8px;
+	}
+}
+@media all and (max-width: 400px){
+	.signup-left p{
+		font-size: 10px;
+	}.signup-left img{
+		width: 75%;
+	}
+	.bbb-option{
+		margin: 2px 2px 2px 0;
+	}
+	.bbb-option select{
+		padding: 2px;
+		font-size: 5px;
+	}
+	.bday-link a{
+		font-size: 4px;
+	}
+	.bday-link{
+		width: 50px;
+	}
+	.bottom-area label{
+		font-size: 10px;
+	}
+	#policy{
+		font-size: 4.5px;
+		width: 80%;
+	}
+	.signup-right input[type=submit]{
+		padding: 4px 15px;
+		font-size: 8px;
+	}
+	.signup-right h4{
+		font-size: 6px;
+	}
+	.signup-right h2{
+		font-size: 18px;
+		margin-bottom: 3px;
+	}
+	.signup-right > p{
+		font-size: 10px;
+		margin: 6px 0;
+	}
+	.signup-right input[type=text], .signup-right input[type=password]{
+		font-size: 8px;
+		padding: 5px;
+		margin: 5px 0;
+	}
+	.birth-date h3{
+		font-size: 10px;
+		margin: 4px 0;
+	}
+	.lang{
+		margin-left: 50px;
+	}
+	.options{
+		margin-left: 50px;
+		width: 600px;
+	}
+	.lang p{
+		font-size: 8px;
+	}
+	.options a{
+		font-size: 7px;
+	}
+}
+
+/* footer area start from here */
+
